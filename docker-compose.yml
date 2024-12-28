@@ -1,8 +1,8 @@
 name: postiz
 services:
   app:
-    image: ghcr.io/gitroomhq/postiz-app:latest
-    container_name: postiz-app
+    image: ghcr.io/imrandubai/post:latest
+    container_name: post
     hostname: postiz
     restart: always
     pull_policy: always
